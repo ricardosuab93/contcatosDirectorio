@@ -1,4 +1,3 @@
-//require("..db.js");
 const { User } = require('../models/User')
 
 const allUsers = async (req, res) => {

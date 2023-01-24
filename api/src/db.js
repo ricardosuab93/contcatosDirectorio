@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const mongoDb = 'mongodb://localhost:27017/prueba'
 
-
+mongoose.set('strictQuery', false);
 // const conn = () =>{
     
 // }
